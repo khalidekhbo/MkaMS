@@ -5,7 +5,7 @@ Reupload from https://github.com/zhtok/MSO_E5_Dev_AutoRenew_Modified
 
 # Status
 
-[![Auto Test MS Graph API](https://github.com/khalidekhbo/MkaMS/actions/workflows/autoTestApi.yml/badge.svg?branch=main)](https://github.com/khalidekhbo/MkaMS/actions/workflows/autoTestApi.yml)
+[![Auto Test MS Graph API](https://github.com/khalidekhbo/MkaMS/actions/workflows/autoTestApi.yml/badge.svg)](https://github.com/khalidekhbo/MkaMS/actions/workflows/autoTestApi.yml)
 
 # Notice
 This repo may lead to unknown issues, problems, information leaks, etc. 
