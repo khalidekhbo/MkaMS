@@ -4,9 +4,9 @@ This is a python program based on Git Actions modified to automatically generate
 Reupload from https://github.com/zhtok/MSO_E5_Dev_AutoRenew_Modified
 
 # Status
-[![Commit](https://github.com/1stlast69/MakakoV2/actions/workflows/Commit.yml/badge.svg?branch=main)](https://github.com/1stlast69/MakakoV2/actions/workflows/Commit.yml)
+[![Commit](https://github.com/khalidekhbo/MkaMS/actions/workflows/Commit.yml/badge.svg)](https://github.com/khalidekhbo/MkaMS/actions/workflows/Commit.yml)
 
-[![Auto Test MS Graph API](https://github.com/khalidekhbo/MkaMS/actions/workflows/autoTestApi.yml/badge.svg)](https://github.com/khalidekhbo/MkaMS/actions/workflows/autoTestApi.yml)
+[![Auto Test MS Graph API](https://github.com/khalidekhbo/MkaMS/actions/workflows/autoTestApi.yml/badge.svg?branch=main)](https://github.com/khalidekhbo/MkaMS/actions/workflows/autoTestApi.yml)
 
 # Notice
 This repo may lead to unknown issues, problems, information leaks, etc. 
