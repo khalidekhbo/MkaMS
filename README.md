@@ -4,7 +4,6 @@ This is a python program based on Git Actions modified to automatically generate
 Reupload from https://github.com/zhtok/MSO_E5_Dev_AutoRenew_Modified
 
 # Status
-[![Commit](https://github.com/khalidekhbo/MkaMS/actions/workflows/Commit.yml/badge.svg)](https://github.com/khalidekhbo/MkaMS/actions/workflows/Commit.yml)
 
 [![Auto Test MS Graph API](https://github.com/khalidekhbo/MkaMS/actions/workflows/autoTestApi.yml/badge.svg?branch=main)](https://github.com/khalidekhbo/MkaMS/actions/workflows/autoTestApi.yml)
 
