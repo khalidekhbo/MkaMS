@@ -46,10 +46,10 @@ jobs:
         rm -f configkey.txt    
     - name: Commit #上传新的refresh_token到仓库
       run: |
-        git config --global user.email khalidekhbo@gmail.com
-        git config --global user.name khaliedekhbo
+        git config --global user.email ${{ secrets.EMAIL }}
+        git config --global user.name ${{ secrets.user }}
         git add .
-        git commit -m "update new refresh token with khalidekhbo" -a
+        git commit -m "update new refresh token with ${{ secrets.user }}" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
