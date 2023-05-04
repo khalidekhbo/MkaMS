@@ -1,0 +1,36 @@
+name: Commit
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "1 */2 * * *"
+
+
+jobs:
+  autogreen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+
+    #- name: Auto green
+      - name: Email
+        run: |
+          git config --local user.email ${{ secrets.EMAIL }}
+      - name: User Name
+        run: |
+         git config --local user.name ${{ secrets.user }}
+      - name: origin
+        run: |
+          git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+      - name: pull
+        run: |
+          git pull --rebase
+      - name: comit
+        run: |
+         git commit --allow-empty -m "a commit a day keeps your girlfriend from going away"
+      - name: push
+        run: |
+          git push
